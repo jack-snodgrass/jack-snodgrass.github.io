@@ -1,3 +1,103 @@
-.header{
-    color: red;
+.hello{
+    color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-style: groove;
+    border-color: lightpink;
+    border-width: 10px;
+    background-image: url(images/Mia1.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 15px;
+    font-weight: bold;
 }
+.hello > h1{
+    left: 50px;
+    top: 80%;
+    position: relative;
+}
+
+.welcome{
+    color: teal;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+
+}
+
+.row1{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    column-gap: normal;
+}
+.col-tech1 {
+    width: 33.33%;
+    background-image: url(images/tech.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+.col-tech2 {
+    width: 33.33%;
+    background-image: url(images/technology1.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+.col-tech3 {
+    width: 33.33%;
+    background-image: url(images/technology2.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+.col-core1 {
+    width: 33.33%;
+    background-image: url(images/core1.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+.col-core2 {
+    width: 33.33%;
+    background-image: url(images/core2.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+.col-core3 {
+    width: 33.33%;
+    background-image: url(images/core3.jpg);
+    background-size: cover;
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    
+}
+hr {
+        background-image: url(images/fancy-line.png);
+        height:50px;
+        border:none !important;
+}
+a:hover {
+    font-size: 40px;
+  }
