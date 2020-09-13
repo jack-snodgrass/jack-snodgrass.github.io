@@ -36,61 +36,67 @@
 .col-tech1 {
     width: 33.33%;
     background-image: url(images/tech.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 .col-tech2 {
     width: 33.33%;
     background-image: url(images/technology1.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 .col-tech3 {
     width: 33.33%;
     background-image: url(images/technology2.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 .col-core1 {
     width: 33.33%;
     background-image: url(images/core1.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 .col-core2 {
     width: 33.33%;
     background-image: url(images/core2.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 .col-core3 {
     width: 33.33%;
     background-image: url(images/core3.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
     font-family: 'IM Fell English', serif;
     font-size: 20px;
     color: ivory;
-    text-align: center;
+    text-align: left;
     
 }
 hr {
@@ -99,5 +105,5 @@ hr {
         border:none !important;
 }
 a:hover {
-    font-size: 40px;
+    font-size: 30px;
   }
