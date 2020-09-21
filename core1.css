@@ -1,0 +1,40 @@
+.intro {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'IM Fell English', serif;
+    color: rgb(34, 31, 28);
+    
+}
+
+.values {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'IM Fell English', serif;
+    color: rgb(34, 31, 28);
+}
+
+.list {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'IM Fell English', serif;
+    list-style: none;
+    color: rgb(34, 31, 28);
+
+}
+a:hover {
+    font-size: 25px;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+html {
+   
+   background-image: url("images/blogbckgr1.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}

@@ -1,0 +1,17 @@
+html {
+    background-image: url("images/blogbckgr2.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.header {
+text-align: center;
+font-family: 'Ranchers', cursive;;
+
+}
+
+a:hover {
+    font-size: 25px;
+  }

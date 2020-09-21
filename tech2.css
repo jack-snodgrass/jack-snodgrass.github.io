@@ -1,0 +1,40 @@
+.styles {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+}
+
+html {
+    background-image: url("images/blogbckgr3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:hover {
+    font-size: 35px;
+    color: red;
+  }
+
+  .classes {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-transform: unset;
+  }
+
+  .home {
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-transform: unset;
+    align-content: center;
+  }
+
