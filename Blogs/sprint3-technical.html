@@ -9,17 +9,127 @@
   <body>
     <h1>What Is The Differences Between HTML and CSS?</h1>
     <p>
-      HTML and CSS are both programming languages that are used in the creation of webpages and are also used in web application. However, they are totally different in application, use of features, ease, and they way they are structured. HTML can exist on its own to create a basic webpage, but CSS does not share this feature, it will need a HTML document to be linked to for it to serve a purpose. 
+      HTML and CSS are both programming languages that are used in the creation of webpages and are also used in web application. However, they are totally different in application, use of features, ease, 
+      and they way they are structured. HTML can exist on its own to create a basic webpage, but CSS does not share this feature, it will need a HTML document to be linked to for it to serve a purpose. 
     </p>
     <p>
       HTML is used to create all the content that will populate the web page. The HTML will contain words and sentences that are enclosed in tags and elements, the words written combined with tags and elements then appear on web pages. This makes it so your browser can identify things just as headings & paragraphs and can tell where they start and end. HTML can be though of as the structure of your house, after building it all the walls doors and windows are in but its all blank and boring. This where CSS comes ..
    </p>
    <p>
-    The CSS is what makes the HTML all pretty and adds some flare to your webpage. This is by using what is known as a “stylesheet” and is linked to the HTML in the <head> section of the HTML. It controls the design and style of a site and incorporates background colour, visual effects, and layout. CSS contains declarations that are found in between curly brackets and consist of property and value separated by colons. Think of CSS like the paint, artwork, furniture or anything else that would be used to decorate your house.
+    The CSS is what makes the HTML all pretty and adds some flare to your webpage. This is by using what is known as a “stylesheet” and is linked to the HTML in the head section of the HTML. It controls the design and style of a site and incorporates background colour, visual effects, and layout. CSS contains declarations that are found in between curly brackets and consist of property and value separated by colons. Think of CSS like the paint, artwork, furniture or anything else that would be used to decorate your house.
   </p>
   
   <h1>What Is Control Flow and Looping?</h1>
   <h3>What is control flow?</h3>
-  
+  <p>
+    Now that you are moving on from using just HTML and CSS and starting to build more intense, complex, and interactive web pages, mainly with using javascript, its impossible not to come across and start dealing with something known as “control flow”.  This is the term used to describe flow or path that JavaScript takes when executing your code. The control part of that is the part of the code where we tell JavaScript to either "do this" or "do that" based on some condition.
+ </p>
+ <p>
+  There are four main types of control flow that we use: 
+ </p>
+ <ul>
+   <li>Loops</li>
+   <li>If/else statements</li>
+   <li>Switch statements</li>
+   <li>Ternary operators</li>
+ </ul>
+
+ <h1>What are Loops?</h1>
+ <p>
+  Loops are used in Javascript to repeat a specific task based on a condition. The conditions we set out use a boolean to return a “true” or “false” value, and the loop will continue running until the defined condition returns “false”. 
+</p>
+<p>
+  The three most common types of loops are:
+</p>
+<ul>
+  <li>For</li>
+  <li>While</li>
+  <li>Do While</li>
+</ul>
+<p>Lets grab the first one "for" and have a bit more of a in depth look at it:</p>
+<p>for ([initialization]); [condition]; [final-expression]) {
+  // statement
+}
+</p>
+<p>Above is and example of a for loop. The javascript for statement consists of three expressions and a statement:</p>
+<ul>
+  <li>initialization - Run before the first execution on the loop. This expression is commonly used to create counters. Variables created here are scoped to the loop. Once the loop has finished it’s execution they are destroyed.</li>
+  <li>condition - Expression that is checked prior to the execution of every iteration. If omitted, this expression evaluates to true. If it evaluates to true, the loop’s statement is executed. If it evaluates to false, the loop stops.</li>
+  <li>final-expression - Expression that is run after every iteration. Usually used to increment a counter. But it can be used to decrement a counter too.</li>
+  <li>statement - Code to be repeated in the loop</li>
+</ul>
+
+<h1>The DOM</h1>
+<p>The DOM, or Document Object Model, is a programme interface that defines the logical structure of a webpage. It represents the page so that programs can change the document structure, style, and content. It affects any languages you used (In our case at EDA its the HTML, CSS, and Javascript.)</p>
+<p>Quick Recap on these:</p>
+<p>HTML: This is what supplies the content to the webpage<br>CSS: This is a stylesheet which applies all the styling to a webpage<br>Javascript: Language that allows webpages to go from static to interactive.</p>
+<p>What is shown in the browser when you load a page is a web document, its all the HTML, CSS, and JavaScript you have written coming together to form what you see and interact with on the page. Your browser read this and follows a specific pecking order to make sense of everything that’s going on. Your DOM is actually made up many kinds of things beyond just HTML elements. Everything that makes up your DOM is more generically known as nodes. These nodes can be elements (which shouldn't surprise you), attributes, text content, comments, document-related stuff, and various other things you simply never think about. 
+<br>The DOM is the single most important piece of functionality you have for working with your HTML documents. It provides the missing link that ties your HTML and CSS with JavaScript. 
+</p>
+
+<h1>Explain the difference between accessing data from arrays and objects.</h1>
+<h3>What is an object?</h3>
+<p>Objects are used when you want to store are collection of data, rather than just a signal value. They create a “something”  which could really be anything eg: a person, an album, a book, anything that that is made up and/or defined by a group of data which are called “properties”. These properties consist of a key and a value, with the values being data types like strings, numbers, and booleans etc.
+</p>
+<p>Below is a basic object of a person: 
+</p>
+<p>var person = { <br>
+  name: 'Jack',   <br>
+  age: 23,        <br>
+  enjoyingEda: true 
+};</p>
+<p>We can return and manipulate the properties inside our objects by using either the dot or bracket notations. So if we wanted to access the object and return the value for our key “name” we could do so with the to notations like this: 
+</p>
+<p>/ Dot notation <br>
+  person.age // returns 23 <br>
+  // Bracket notation <br>
+  person['age'] // returns 23</p>
+
+  <p> If we wanted to add a property to our object to give the person a last name we could use the dot notation to do this as well, below is how we would do this then how our new object would look after the property is added:
+  </p>
+  <p>person.lastName = ["Snodgrass"];<br>
+
+    var person = { <br>
+      name: 'Jack', <br>
+      age: 23,      <br>
+      enjoyingEda: true; <br>
+      lastName: ‘Snodgrass' 
+    };</p>
+
+    <h3>What is an array?
+    </h3>
+  <p>An array, unlike and object, is used to store multiple items against a singular variable. These items can consist of strings, numbers, booleans, objects, or even other arrays, just as an object stores them against multiple keys and values. Items are accessed through arrays by using their numerical position. Arrays use what is called a zero-based indexing which means that that the first item in every array will be at position [0], and the second item being portion[1], and so on. 
+  </p>
+  <p>So if we had an array for favourite sports it would look like this:
+    <br>
+    var favouriteSports = ['Rugby', 'Basketball', 'MMA', ‘Surfing’]
+    <br>
+    If we wanted to return a value we use the variables name and the items numerical position:
+    <br>
+    favouriteSprorts[2];       - returns the value MMA 
+ </p>
+ <p>This will return the value ‘MMA’ as since we start from zero it is actually the second position inside the array. We can also add and remove items using a range of methods. The one below is the push method which adds and item on the end of the arry:
+</p>
+<p>favouriteSports.push[‘Football’]; 
+  <br>
+  This will add Football onto the end of the array in the end position with the numerical value[4]:
+<br>
+var favouriteSports = ['Rugby', 'Basketball', 'MMA', ‘Surfing’, “Football”]
+</p>
+<p>So Objects use the properties keys and call on these directly to access the data whereas arrays use the single variables name and the numerical position of the data they are trying to call. 
+</p>
+
+<h1>What are functions in Javascript??
+</h1>
+<p>A function is used within javascript to execute a set of rules or statements to perform tasks and/or calculations. This is what gives our web pages a lot of the interactivity and we won’t see a lot of code that doesn’t use them. It also groups our statements together and makes the code re usable so they can be called multiple times without having to re write all the code.
+</p>
+
+<a href="../index.html" class="home">Home</a>
+
+
+
+
+
+
 </body>
-</html
+</html>
