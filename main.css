@@ -32,6 +32,8 @@
     display: flex;
     height: 300px;
     column-gap: normal;
+    display: -webkit-flex;
+    position:relative
 }
 .col-tech1 {
     width: 20%;
@@ -99,6 +101,7 @@ a:hover {
     display: flex;
     height: 300px;
     column-gap: normal;
+    display:block
   }
   
   
@@ -146,4 +149,14 @@ a:hover {
       background-image: url(images/blogbckgr1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+  }
+
+
+  @media screen and (max-width: 200px) {
+    .row1 {
+      width: 100%;
+    }
+    .a {
+     width: 100%;
+       }
   }
