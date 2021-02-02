@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:unit": "jest",
-    "test:e2e": "testcafe chrome:headless ./functional-tests/fixtures --speed 0.1 ",
+    "test:e2e": "testcafe chrome ./Tests --speed 0.1 ",
     "test:remote": "testcafe remote ./functional-tests --qr-code --debug-on-fail",
     "test:e2e:CI": "export CI=true && testcafe chrome:headless ./functional-tests/fixtures --app 'yarn serve' --debug-on-fail"
   },

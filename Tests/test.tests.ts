@@ -7,11 +7,13 @@ fixture('auckland-Journey').page(baseUrl);
 test('Logo is present on homepage and first link works', async (t) => {
   const getLocation = ClientFunction(() => document.location.href);
 
-  await t.click(Selector('main').find('a').withText('7KshmNBZr5YbGYGg3zYMqe'));
+  const homeSelector = Selector('[data-testid="home"]')
+
+  await t.click(Selector('a').withText('Sprint 1 Cultural Blog'));
+
+  await t.click(homeSelector);
   await t
     .expect(getLocation())
-    .eql(`${baseUrl}/preview/standard/7KshmNBZr5YbGYGg3zYMqe`);
+    .eql(`${baseUrl}/`);
 
-  await t.click(Selector('main').find('a').withText('Go back to the homepage'));
-  await t.expect(getLocation()).eql(`${baseUrl}/`);
 });
